@@ -79,7 +79,7 @@ body{
     height: 100vh;
 }
 body{
-    background-image: url('../images/sersre.jpg');
+    background-image: url('images/sersre.jpg');
     background-size: cover;
     background-position: center;
 }
