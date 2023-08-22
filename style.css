@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .3s;
+}
+
+header a:hover{
+    color: rgb(141, 61, 128);
+}
+.menu-skaz{
+    position: absolute;
+    top: 60px;
+    left: 250px;
+    width: 350px;
+    height: 50vh;
+    background-color: bisque;
+    overflow-y: scroll;
+    padding: 10px;
+    transform: translateY(-103%);
+    transition: 0.3s;
+    z-index: 1;
+
+}
+.menu-skaz.active{
+    transform: translateY(0);
+}
+.menu-skaz li{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.menu-skaz a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .3s;
+}
+.menu-skaz a:hover{
+    color: rgb(141, 61, 128);
+}
+.glav{
+    text-align: center;
+    margin-top: 302px;
+
+}
+.glav p{
+    font-size: 30px;
+}
+.i{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+body{
+    height: 100vh;
+}
+body{
+    background-image: url('../images/sersre.jpg');
+    background-size: cover;
+    background-position: center;
+}
+p{
+    color: antiquewhite;
+    font-size: large;
+    
+}
+h1{
+    color: antiquewhite;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
